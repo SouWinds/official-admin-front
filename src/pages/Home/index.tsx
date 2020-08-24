@@ -9,7 +9,7 @@ import {
   LaptopOutlined,
   NotificationOutlined
 } from "@ant-design/icons";
-import List from '../List'
+import Swiper from '../Swiper'
 import SelectSearch from '../SelectSearch'
 
 const { SubMenu } = Menu;
@@ -119,7 +119,7 @@ export default () => (
               </Menu>
             </Sider>
             <Content style={{ padding: "0 24px", minHeight: 280 }}>
-              <List />
+              <Swiper />
             </Content>
           </Layout>
         </Content>
